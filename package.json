@@ -1,0 +1,25 @@
+{
+  "name": "cron-expression-parser",
+  "version": "1.0.0",
+  "description": "Parse, validate, describe, and schedule cron expressions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "cron-parser": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["cron", "parser", "scheduler", "cli"],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2"
+  }
+}
